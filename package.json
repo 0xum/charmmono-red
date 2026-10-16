@@ -1,0 +1,28 @@
+{
+  "name": "charmmono-red",
+  "displayName": "Charmmono Red",
+  "description": "Variantes Light e Dark do Charmmono, com destaques em vermelho carmim.",
+  "version": "1.0.0",
+  "publisher": "delta-local",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xum/charmmono-red.git"
+  },
+  "engines": { "vscode": "^1.70.0" },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Charmmono Red Light",
+        "uiTheme": "vs",
+        "path": "./themes/charmmono-red-light-color-theme.json"
+      },
+      {
+        "label": "Charmmono Red Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/charmmono-red-dark-color-theme.json"
+      }
+    ]
+  }
+}
